@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:getone/let_start/lets_start.dart';
+import 'package:getone/login_page/login_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.white),
         useMaterial3: true,
       ),
-      home: let_start(),
+      home: login_page(),
     );
   }
 }
