@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:getone/let_start/lets_start.dart';
 import 'package:getone/login_page/login_page.dart';
+import 'package:getone/signup_page/signup_page.dart';
+import 'package:getone/home_page/home_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +20,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.white),
         useMaterial3: true,
       ),
-      home: login_page(),
+      home: HomePage(),
     );
   }
 }
